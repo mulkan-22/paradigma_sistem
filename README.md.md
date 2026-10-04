@@ -179,6 +179,7 @@ Pada praktikum ini terlihat bahwa Order Service bergantung pada Book Service. Ji
 
 Praktikum ini berhasil memperlihatkan perbedaan arsitektur monolith dan microservices melalui dua layanan Flask, yaitu **Book Service (port 5001)** dan **Order Service (port 5002)**. Pengujian menunjukkan koneksi antar layanan berjalan baik, pesanan berhasil dibuat, dan stok buku berkurang dari 5 menjadi 4. Arsitektur microservices memberikan pemisahan tanggung jawab yang jelas dan memudahkan pengembangan secara independen, tetapi menuntut komunikasi antar layanan yang andal.
 ![hasil akhir](img/hasil/7.png)
+
 ![hasil akhir](img/hasil/order-service.png)
 ## H. Referensi
 
